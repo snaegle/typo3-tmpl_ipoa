@@ -11,11 +11,11 @@ $EM_CONF[$_EXTKEY] = array (
 	'description' => 'IPOA Template',
 	'category' => 'frontend',
 	'version' => '0.1.0',
-	'state' => 'stable',
+	'state' => 'alpha',
 	'uploadfolder' => false,
 	'createDirs' => '',
 	'clearcacheonload' => true,
-	'author' => 'Sibylle Nägle',
+	'author' => 'Sibylle Naegle',
 	'author_email' => 'naegle@sub.uni-goettingen.de',
 	'author_company' => 'SUB Uni-Göttingen',
 	'constraints' =>
@@ -32,4 +32,4 @@ $EM_CONF[$_EXTKEY] = array (
 		),
 	),
 );
-
+?>
