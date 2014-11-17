@@ -7,8 +7,8 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = array (
-	'title' => 'tmpl_ipoa',
-	'description' => 'IPOA Template',
+	'title' => 'IPOA Template',
+	'description' => 'Template for IPOA web presence',
 	'category' => 'frontend',
 	'version' => '0.1.0',
 	'state' => 'alpha',

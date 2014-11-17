@@ -1,3 +1,7 @@
+{namespace ipoa=Subugoe\TmplIpoa\ViewHelpers}
+
+<ipoa:linkCSS file="EXT:tmpl_ipoa/Resources/Public/Css/start.css" />
+
 <div class="start">
 
   <header class="enter" role="banner">
@@ -22,8 +26,6 @@
       <!--
       NOTE : set the actual accesskeys to the first character of the button name
       -->
-	    <f:cObject typoscriptObjectPath="content"/>
-
       <button class="nav__button" tabindex="1" accesskey="a" role="link" autofocus>Allgemeine Informationen</button>
       <button class="nav__button" tabindex="2" accesskey="w" role="link">Wissenswertes für...</button>
   	  <button class="nav__button" tabindex="3" accesskey="o" role="link">OA in verschiedenen Fächern</button>
@@ -38,5 +40,5 @@
     	</ul>
     </div>
   </footer>
-
+<f:flashMessages/>
 </div>

@@ -27,9 +27,3 @@ RTE.classes {
 #frames for columns
 TCEFORM.tt_content.section_frame {
 }
-
-# Alternatives Seitenlayout
-#[globalVar = TSFE:page|layout = 0]
-#	file = EXT:tmpl_ipoa/Resources/Private/Templates/Templates/Start.html
-#	page.10.template.file = EXT:tmpl_ipoa/Resources/Private/Templates/Start.html
-#[global]
