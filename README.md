@@ -11,6 +11,7 @@ IPOA Template
 * Installed system extension
 	** T3jQuery
 	** vhs
+	** html-minifier
 
 * Page TypoScript
 	** <INCLUDE_TYPOSCRIPT: source="FILE:EXT:tmpl_ipoa/Configuration/TypoScript/Static/setup.txt">
